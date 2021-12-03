@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(235, 235, 235);
+}
+.container{
+    width: 1180px;
+    margin: auto;
+}
+.containerWrapper{
+    margin-top: 50px;
+}
+.containerWrapper .meal{
+    display: flex;
+}
+.heading{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.heading h1{
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 40px;
+}
+.heading h2{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.heading .randomMeal{
+    padding: 8px 25px;
+    background: rgb(68, 208, 226);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: .3s;
+}
+.heading .randomMeal:hover{
+    background: rgb(20, 98, 109);
+    cursor: pointer;
+}
+.mealItems{
+    width: 400px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    display: block;
+}
+.mealItems .mealPicture img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.mealCategory .category{
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+.mealCategory .area{
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+.mealCategory .subCategory{
+    margin-bottom: 15px;
+}
+.mealIngredients h2 {
+    margin-bottom: 15px;
+}
+.mealIngredients .ingredientsList {
+    list-style-type: circle;
+    margin-left: 15px;
+}
+.mealIngredients .ingredientsList li{
+    margin-bottom: 8px;
+}
+.mealDescription .mealTitle{
+    margin-bottom: 15px;
+}
+.mealDescription .description{
+    width: 750px;
+    line-height: 25px;
+}
+.mealVideos{
+    width: 100%;
+    margin-bottom: 80px;
+}
+.mealVideos h2{
+    margin-bottom: 20px;
+}
+.mealVideos .recipeVideos{
+    width: 100%;
+    height: 600px;
+}
